@@ -20,10 +20,10 @@ int main()
         printf("\n---- Student %d Input ---\n", i);
 
         printf("Enter Registration Number:");
-        scanf("%s", regNo);
+        scanf("%24s", regNo);
 
         printf("Enter Name:");
-        scanf("%s", name);
+        scanf("%49s", name);
 
         printf("Enter Marks:");
         scanf("%d",&marks );

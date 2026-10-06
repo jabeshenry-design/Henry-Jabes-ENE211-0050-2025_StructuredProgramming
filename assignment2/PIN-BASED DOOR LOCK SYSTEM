@@ -1,6 +1,6 @@
 #include <stdio.h> // For printf() and scanf()
 #include <stdlib.h>
-#include <unistd.h>// For sleep()
+#include <windows.h>
 #include <string.h> //For strlen() and strcmp()
 
 int main()
@@ -78,7 +78,7 @@ int main()
         for (int i = 5; i>= 1; i--)
         {
             printf("%d...\n", i);
-            sleep(1);
+            Sleep(1000);
         }
         printf("You can try again now.\n");
         return 0;
